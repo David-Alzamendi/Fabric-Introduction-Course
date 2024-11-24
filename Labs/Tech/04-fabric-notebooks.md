@@ -6,6 +6,11 @@ In this exercise, you will:
    - **Notebook 2:** `persistent_staging_area_copy_data.ipynb` to copy data from the staging Lakehouse (`lh_staging`) to the operations Lakehouse (`lh_operations`).
 2. Execute the notebooks to move data between the staging and operations Lakehouses, both part of the Bronze Layer.
 
+[Create Table File](<../../media/Import Notebooks/persistent_staging_area_create_table.ipynb>)
+
+[Copy Data File](<../../media/Import Notebooks/persistent_staging_area_copy_data.ipynb>)
+
+
 **Duration:** 30 minutes
 
 ---
