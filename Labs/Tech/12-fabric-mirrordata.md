@@ -24,13 +24,12 @@ Ensure you have the following:
 
 2. An Azure SQL Database with the following credentials:
 
-   | **Field**                       | **Value**                                           |
-   |---------------------------------|-----------------------------------------------------|
-   | **Fully Qualified Domain Name** | `sql-dataanalytics-fabric.database.windows.net`    |
-   | **Database Name**               | `AdventureWorks`                                 |
-   | **User Name**                   | `FabricCourseUser`                                 |
-   | **Password**                    | `!!CourseFabric--Fundamentals!!`                   |
-
+| **Field**                | **Value**                                                       |
+|--------------------------|-----------------------------------------------------------------|
+| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
+| **Database name**        | `AdventureWorks`                                             |
+| **User name**            | `fabric_login`                                             |
+| **Password**             | `F@br1cC0rs3`                               |
 ---
 
 ## Step 1 - Navigate to the Analytics Workspace
@@ -62,13 +61,12 @@ Ensure you have the following:
    - Select **Azure SQL Database** as the source type.
    - Enter the following credentials:
 
-     | **Field**                | **Value**                                   |
-     |--------------------------|---------------------------------------------|
-     | **Database Name**        | `AdventureWorks`                         |
-     | **Authentication Type**  | SQL Authentication                        |
-     | **User Name**            | `FabricCourseUser`                         |
-     | **Password**             | `!!CourseFabric--Fundamentals!!`           |
-
+| **Field**                | **Value**                                                       |
+|--------------------------|-----------------------------------------------------------------|
+| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
+| **Database name**        | `AdventureWorks`                                             |
+| **User name**            | `fabric_login`                                             |
+| **Password**             | `F@br1cC0rs3`                               |
    
    ![Azure SQL Database Connection](<../../media/Mirror ASQ/mirror-4.png>)
 
