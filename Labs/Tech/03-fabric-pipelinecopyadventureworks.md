@@ -57,12 +57,12 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 2. In the **Source** tab of the wizard:
    - Select **Azure SQL Database** as the source type.
    - Click **New Connection** to create a linked service for the source:
-     - **Name:** `ls_sql_adventureworkslt`
-     - **Server name:** `sql-dataanalytics-fabric.database.windows.net`
-     - **Database name:** `AdventureWorksLT`
-     - **Authentication method:** SQL Authentication
-     - **User name:** `FabricCourseUser`
-     - **Password:** `!!CourseFabric--Fundamentals!!`
+  | **Field**                | **Value**                                                       |
+|--------------------------|-----------------------------------------------------------------|
+| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
+| **Database name**        | `AdventureWorks`                                             |
+| **User name**            | `fabric_login`                                             |
+| **Password**             | `F@br1cC0rs3`     
    
    ![Select Azure SQL Database](<../../media/Pipeline Copy AdventureWorks/pipeline - (7).png>)
 
