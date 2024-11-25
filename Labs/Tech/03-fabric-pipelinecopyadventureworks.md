@@ -19,10 +19,10 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 
 | **Field**                | **Value**                                                       |
 |--------------------------|-----------------------------------------------------------------|
-| **Fully qualified domain name** | `sql-dataanalytics-fabric.database.windows.net`                  |
+| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
 | **Database name**        | `AdventureWorks`                                             |
-| **User name**            | `FabricCourseUser`                                             |
-| **Password**             | `!!CourseFabric--Fundamentals!!`                               |
+| **User name**            | `fabric_login`                                             |
+| **Password**             | `F@br1cC0rs3`                               |
 
 3. Ensure you have permissions to create pipelines and access both the source database and destination Lakehouse.
 
