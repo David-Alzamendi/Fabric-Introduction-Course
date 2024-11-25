@@ -19,9 +19,8 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 
 | **Field**                | **Value**                                                       |
 |--------------------------|-----------------------------------------------------------------|
-| **Name**                 | ls_sql_adventureworkslt                                        |
 | **Fully qualified domain name** | `sql-dataanalytics-fabric.database.windows.net`                  |
-| **Database name**        | `AdventureWorksLT`                                             |
+| **Database name**        | `AdventureWorks`                                             |
 | **User name**            | `FabricCourseUser`                                             |
 | **Password**             | `!!CourseFabric--Fundamentals!!`                               |
 
