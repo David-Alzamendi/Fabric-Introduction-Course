@@ -22,7 +22,7 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 | **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
 | **Database name**        | `AdventureWorks`                                             |
 | **User name**            | `fabric_login`                                             |
-| **Password**             | `F@br1cC0rs3`                               |
+| **Password**             | `F@br1cC0urs3`                               |
 
 3. Ensure you have permissions to create pipelines and access both the source database and destination Lakehouse.
 
@@ -31,6 +31,7 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 ## **Step 1 - Create a Fabric Pipeline**
 
 1. Navigate to the **Development Workspace** in **Microsoft Fabric**.
+
       ![Data Movement Workspace](<../../media/Pipeline Copy AdventureWorks/pipeline - (1).png>)
 2. Select **New Item**.
    
@@ -57,14 +58,26 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 2. In the **Source** tab of the wizard:
    - Select **Azure SQL Database** as the source type.
    - Click **New Connection** to create a linked service for the source:
-  | **Field**                | **Value**                                                       |
-|--------------------------|-----------------------------------------------------------------|
-| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
-| **Database name**        | `AdventureWorks`                                             |
-| **User name**            | `fabric_login`                                             |
-| **Password**             | `F@br1cC0rs3`     
-   
+
+   | **Field**                | **Value**                                                       |
+   |--------------------------|-----------------------------------------------------------------|
+   | **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
+   | **Database name**        | `AdventureWorks`                                             |
+   | **User name**            | `fabric_login`                                             |
+   | **Password**             | `F@br1cC0urs3`     
+      
    ![Select Azure SQL Database](<../../media/Pipeline Copy AdventureWorks/pipeline - (7).png>)
+
+   Create connection.
+
+   Once you enter the connection string and database name, a connection might become available in the drop down "adventureworks", use that one.
+
+   - ![Select connection](<../../media/Pipeline Copy AdventureWorks/select-connection-2.png>)
+      
+   If that's not the case, complete the registration.
+
+
+   - ![Create connection](<../../media/Pipeline Copy AdventureWorks/create-connection.png>)
 
    Select all tables.
 
@@ -84,6 +97,7 @@ In this exercise, you will use **Microsoft Fabric Pipeline** and the **Copy Data
 
     ![Mapping](<../../media/Pipeline Copy AdventureWorks/pipeline - (11).png>)
 
+   You will have to wait a few seconds before you can continue so it can map the columns for all the tables.
 
 5. Click **Next** to preview the settings and then **Save and Run** to save the Copy Data activity configuration.
 

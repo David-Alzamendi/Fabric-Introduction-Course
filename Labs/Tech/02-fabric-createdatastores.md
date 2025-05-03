@@ -1,6 +1,6 @@
 # Exercise 2 - Microsoft Fabric Data Stores
 
-In this exercise, you will create the required data stores within **Microsoft Fabric** to support future exercises. This involves creating Lakehouses for the **Bronze layer** and a **Data Warehouse** for the **Gold layer** within the analytics workspace.
+In this exercise, you will create the required data stores within **Microsoft Fabric** to support future exercises. This involves creating Lakehouses for the **Bronze layer** and a **Data Warehouse** for the **Gold layer** within the Warehouse Analytics Workspace.
 
 **Duration:** 30 minutes
 
@@ -25,9 +25,10 @@ For this exercise:
 ## **Step 1 - Create Bronze Area Lakehouses**
 
 1. **Navigate to the Workspace:**
-   - Open the **Analytics Workspace** in **Microsoft Fabric**.
+   - Open the **Warehouse Analytics Workspace** in **Microsoft Fabric**.
 
      ![Select Workspace](../../media/Create%20Data%20Stores/create%20data%20stores%20-%20(1).png)
+
 
 2. **Create the Staging Lakehouse (`lh_staging`):**
    - Click **Create Item** in the workspace.
@@ -60,7 +61,7 @@ For this exercise:
 ## **Step 2 - Create the Gold Layer Data Warehouse**
 
 1. **Navigate to the Workspace:**
-   - Open the **Analytics Workspace** in **Microsoft Fabric**.
+   - Open the **Warehouse Analytics Workspace** in **Microsoft Fabric**.
 
 2. **Create the Data Warehouse (`wh_datawarehouse`):**
    - Click **Create Item** in the workspace.

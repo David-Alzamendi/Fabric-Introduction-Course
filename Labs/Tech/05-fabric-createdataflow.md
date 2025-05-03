@@ -41,7 +41,7 @@ In this exercise, you will:
 
 ## **Step 2 - Add a Blank Query to Generate the Date Dimension**
 
-1. In the Dataflow Gen2 interface, click **+ Add Data** and choose **Blank Query**.
+1. In the Dataflow Gen2 interface, click ** Get Data** and choose **Blank Query**.
 
     ![Add Blank Query](../../media/Dataflow/dataflow-5.png)
 
@@ -79,6 +79,9 @@ In this exercise, you will:
 
 3. Click **Next** to preview the query results. Verify that the table includes all required 
 
+4. Change the table name to Date
+
+    ![Date Table](../../media/Dataflow/date-table.png)
 ---
 
 ## **Step 3 - Configure Output for the Gold Layer**
@@ -101,6 +104,10 @@ In this exercise, you will:
 
     
     ![Publish Dataflow](../../media/Dataflow/dataflow-10.png)
+
+    **The refresh of the dataflow is going to take a few minutes.**
+
+    ![Refresh Dataflow](../../media/Dataflow/refresh-data-flow.png)
 ---
 
 ## **Step 4 - Validation**
