@@ -22,14 +22,14 @@ Ensure you have the following:
 
 
 
-2. An Azure SQL Database with the following credentials:
+2. An Azure SQL Database with the following credentials (this is a different server than the pipelines exercise)
 
 | **Field**                | **Value**                                                       |
 |--------------------------|-----------------------------------------------------------------|
-| **Fully qualified domain name** | `sql-dataanalytics-aue-dev.database.windows.net`                  |
+| **Fully qualified domain name** | `sql-dataanalytics-aue-dev-001.database.windows.net`                  |
 | **Database name**        | `AdventureWorks`                                             |
 | **User name**            | `fabric_login`                                             |
-| **Password**             | `F@br1cC0rs3`                               |
+| **Password**             | `F@br1cC0urs3`                               |
 ---
 
 ## Step 1 - Navigate to the Analytics Workspace
