@@ -30,7 +30,7 @@ In this exercise, you will:
 2. Download the two required notebooks from the following links:
    - [Notebook 1: persistent_staging_area_create_table.ipynb](<../../media/Import Notebooks/persistent_staging_area_copy_data.ipynb>)
 
-   - [Notebook 2: persistent_staging_area_copy_data.ipynb](<../../media/Import Notebooks/persistent_staging_area_copy_data.ipynb)
+   - [Notebook 2: persistent_staging_area_copy_data.ipynb](<../../media/Import Notebooks/persistent_staging_area_copy_data.ipynb>)
 
 ---
 
