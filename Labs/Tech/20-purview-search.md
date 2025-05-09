@@ -18,7 +18,7 @@ In this exercise, you will explore Microsoft Purview’s Data Catalog to locate 
 
 Ensure you have the following:
 
-1. Access to the [Microsoft Purview Portal](https://purview.microsoft.com)
+1. Access to the [Microsoft Purview Portal](https://purview.microsoft.com/home?tid=2de3958c-ed82-45dd-b08b-b30df437cd37)
 2. At least one data source registered with assets scanned.
 3. Viewer or Data Curator permissions in Purview.
 
@@ -27,23 +27,23 @@ Ensure you have the following:
 
 ## Step 1 – Open Microsoft Purview Portal
 
-1. Go to [https://purview.microsoft.com](https://purview.microsoft.com)
+1. Go to [https://purview.microsoft.com/home?tid=2de3958c-ed82-45dd-b08b-b30df437cd37](https://purview.microsoft.com/home?tid=2de3958c-ed82-45dd-b08b-b30df437cd37)
 
    ![Homepage](../../media/Purview/homepage.png)
 
 2. Sign in with your organizational credentials.
-3. From the left-hand menu, click **Unified Catalog** → **Browse assets**.
+3. From the left-hand menu, click **Solutions**->**Unified Catalog** → **Browse assets**.
 
    ![Unified catalog](../../media/Purview/unified-catalog-open.png)
 ---
 
 ## Step 2 – Use the Search Feature
 
-1. In the **Search bar**, type a keyword such as `Person`.
+1. In the **Search bar**, type a keyword such as `Customer`. You can also type it in the search bar at the top.
 2. Press **Enter**.
 3. Review the list of results.
 
-   ![Person search](../../media/Purview/person-search.png)
+  ![Purview Search](../../media/Purview/purview-search.png)
 ---
 
 ## Step 3 – Apply Filters
@@ -51,38 +51,26 @@ Ensure you have the following:
 1. On the left-hand side, apply filters to narrow results:
    - **Asset Type**: Table, File, Power BI Dataset, etc.
    - **Data Source**: Select a known source.
-   - **Classification**: E.g., “Confidential”, “Email Address”.
+   - **Classification**: E.g., All Full Names, “Email Address”.
 
-> Example Screenshot Placeholder: `![Filter Results](../../media/purview/search-filters.png)`
+![Filter options](../../media/Purview/customer-results.png)
 
-2. Click on a search result to view its metadata.
+1. Click on a search result to view its metadata.
 
 ---
 
 ## Step 4 – Explore Metadata and Classifications
 
-1. On the asset detail page, review:
-   - **Description** and **Owner**
-   - **Schema** (column names and types)
-   - **Classifications**
-   - **Glossary terms**
+1. Select any search result and look at the different property options.
 
-> Example Screenshot Placeholder: `![Asset Details](../../media/purview/asset-details.png)`
+![Properties](../../media/Purview/asset-properties.png)
 
----
+All the properties can be modified, click on Edit for Schema or Contacts options.
 
-## Step 5 – Record Key Observations
+This allows you to modify an existing asset to add more metadata.
 
-Fill in the table below based on the asset you selected:
 
-| **Field**               | **Example Value**      |
-|------------------------|------------------------|
-| Asset Name             | customer_data          |
-| Asset Type             | Table                  |
-| Classification Applied | Email Address          |
-| Glossary Term Linked   | Customer ID            |
-
----
+![Asset Edit](../../media/Purview/asset-edit.png)
 
 ## Summary
 

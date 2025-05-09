@@ -20,7 +20,7 @@ In this exercise, you will:
 - Create tables in the operations Lakehouse using a pre-configured notebook.
 - Copy data from the staging Lakehouse to the operations Lakehouse using another pre-configured notebook.
 
-**Make sure youare in the Analytis Workspace when importing the notebooks.**
+**Make sure you are in the Analytis Workspace when importing the notebooks.**
 ---
 
 ## **Pre-requisites**
