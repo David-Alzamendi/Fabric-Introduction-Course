@@ -106,7 +106,7 @@ Review the different options within the data product and add the related glossay
 
 3. Fill out the details.
    ![Policy details](../../media/Purview/data-product-policy-details.png)
-   
+
 ---
 
 ## Step 6 – Review and Publish
@@ -121,6 +121,7 @@ Review the different options within the data product and add the related glossay
 ## Summary
 
 In this exercise, you:
+
 
 - Created a governance domain to organize business data assets.
 - Defined a data product using Microsoft Purview's Unified Catalog.
